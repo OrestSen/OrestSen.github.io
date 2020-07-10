@@ -184,10 +184,15 @@ div li:hover > .drop-down {
     border-width: 0 3px 3px 0;
 }
 
-.block1 {
-    position: relative;
+.main {
+    width: 100%;
+    float: left;
+}
+
+.block {
+    float: left;
     top: 20%;
-    left: 30%;
+    transform: translate(50%, 10%);
 }
 
 .centralmenu {
