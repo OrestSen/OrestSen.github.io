@@ -350,6 +350,7 @@ button:hover {
 .footer {
     width: 100%;
     float: left;
+    content: "";
 }
 
 
