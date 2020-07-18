@@ -1,6 +1,6 @@
-let button = document.getElementById("clickme"),
+let basket = document.getElementById("clickme"),
   count = 0;
-button.onclick = function() {
+basket.onclick = function() {
   count += 1;
-  button.innerHTML = " " + count;
+  basket.innerHTML = " " + count;
 };
