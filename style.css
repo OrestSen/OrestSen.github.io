@@ -257,7 +257,7 @@ div li:hover > .drop-down {
 }
 
 .type {
-   margin: 35px;
+   margin: 29px;
 }
 
 .specifications {
@@ -268,9 +268,26 @@ div li:hover > .drop-down {
     width: 100%;
 }
 
+input[type='checkbox'] {
+    display: none;
+}
+input[type='checkbox']:checked + label:before {
+    background-color: white;
+ 
+}
+
+label:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 0px 5px 0 0;
+}
+
 .div {
     line-height: 40px;
-
 }
 
 .centralmenu {
@@ -405,6 +422,12 @@ button {
 
 .button1 {
     text-align: center;
+}
+
+.button2 {
+    text-align: center;
+    margin: 45px 0 0 0;
+    
 }
 
 p > strong.strong {
