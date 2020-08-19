@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop-project !!!</title>
     <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 </head>
@@ -54,17 +58,16 @@
         </div>
     </header>
     <main class="main">
-        <div class="col-md-6 toptex">
-            <div class="inform2">
-                <div>
-                    <p> Home page > Product > Laptops and Tablets</p>
-                </div>
-                <div>
-                    <h1>Laptops and Tablets</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slider-block">
+                        <div><img src="images/clock.png" alt=""></div>
+                        <div><img src="images/clock1.png" alt=""></div>
+                        <div><img src="images/tele.png" alt=""></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="filter">
@@ -140,33 +143,45 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <div class="centralmenu">
-                            <div class="classs">
-                                <a href="" class="foto">
-                                    <img src="images/tele.png" alt="">
-                                </a>
-                                <div class="but">
-                                    <div class="but1">
-                                        <div>
-                                            <input type="button" name="" id="" class="bord">
-                                        </div>
-                                        <div>   
-                                            <input type="button" name="" id="" class="like">
-                                       </div> 
-                                    </div>
-                                </div>   
-                            </div> 
-                            <div class="inform">
-                                <h1>#1 Device Name</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p><strong class="strong">TYPE</strong>: Laptop</p>
-                                <p><strong class="strong"> SIZE</strong>: 7 inches</p>
-                                <p><strong class="strong"> RAM</strong>: 1GB</p>
-                                <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="inform2">
+                            <div class="col-md-12">
+                                <p class="change"><a href="">Home page</a> > <a href="">Products</a> > Laptops and Tablets</p>
                             </div>
                             <div>
-                                <form action="" >
+                                <h1>Laptops and Tablets</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/tele.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>   
+                                                <input type="button" name="" id="" class="like liked">
+                                           </div> 
+                                        </div>
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#1 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                                </div>
+                                <div>
                                     <div class="button1">
                                         <button>MORE DETAILS</button> 
                                         <button class="button2">ADD TO CART
@@ -175,35 +190,35 @@
                                             </i> 
                                         </button>
                                     </div>
-                                 </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="centralmenu">
-                            <div class="classs">
-                                <a href="" class="foto">
-                                    <img src="images/clock.png" alt="">
-                                </a>
-                                <div class="but">
-                                    <div class="but1">
-                                        <div>
-                                            <input type="button" name="" id="" class="bord">
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/clock.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>
+                                                <input type="button" name="" id="" class="like">
+                                           </div> 
                                         </div>
-                                        <div>
-                                            <input type="button" name="" id="" class="like">
-                                       </div> 
-                                    </div>
-                                </div>   
-                            </div> 
-                            <div class="inform">
-                                <h1>#2 Device Name</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p><strong class="strong">TYPE</strong>: Laptop</p>
-                                <p><strong class="strong"> SIZE</strong>: 7 inches</p>
-                                <p><strong class="strong"> RAM</strong>: 1GB</p>
-                                <h2 class="reform1">$1250<sup class="reform"><small>99</small></sup></h2>
-                            </div>
-                            <div>
-                                <form action="" >
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#2 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$1250<sup class="reform"><small>99</small></sup></h2>
+                                </div>
+                                <div>
                                     <div class="button1">
                                         <button>MORE DETAILS</button> 
                                         <button class="button2">ADD TO CART
@@ -212,35 +227,72 @@
                                             </i> 
                                         </button>
                                     </div>
-                                 </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="centralmenu">
-                            <div class="classs">
-                                <a href="" class="foto">
-                                    <img src="images/clock1.png" alt="">
-                                </a>
-                                <div class="but">
-                                    <div class="but1">
-                                        <div>
-                                            <input type="button" name="" id="" class="bord">
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/tele.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>   
+                                                <input type="button" name="" id="" class="like liked">
+                                           </div> 
                                         </div>
-                                        <div>
-                                            <input type="button" name="" id="" class="like">
-                                       </div> 
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#1 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                                </div>
+                                <div>
+                                    <div class="button1">
+                                        <button>MORE DETAILS</button> 
+                                        <button class="button2">ADD TO CART
+                                            <i>
+                                                <img src="images/basket1.png" alt="">
+                                            </i> 
+                                        </button>
                                     </div>
-                                </div>   
-                            </div> 
-                            <div class="inform">
-                                <h1>#3 Device Name</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p><strong class="strong">TYPE</strong>: Laptop</p>
-                                <p><strong class="strong"> SIZE</strong>: 7 inches</p>
-                                <p><strong class="strong"> RAM</strong>: 1GB</p>
-                                <h2 class="reform1">$399<sup class="reform"><small>50</small></sup></h2>
+                                </div>
                             </div>
-                            <div>
-                                <form action="" >
+                        </div>
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/clock.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>
+                                                <input type="button" name="" id="" class="like">
+                                           </div> 
+                                        </div>
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#2 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$1250<sup class="reform"><small>99</small></sup></h2>
+                                </div>
+                                <div>
                                     <div class="button1">
                                         <button>MORE DETAILS</button> 
                                         <button class="button2">ADD TO CART
@@ -249,35 +301,72 @@
                                             </i> 
                                         </button>
                                     </div>
-                                 </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="centralmenu">
-                            <div class="classs">
-                                <a href="" class="foto">
-                                    <img src="images/tele.png" alt="">
-                                </a>
-                                <div class="but">
-                                    <div class="but1">
-                                        <div>
-                                            <input type="button" name="" id="" class="bord">
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/clock1.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>
+                                                <input type="button" name="" id="" class="like">
+                                           </div> 
                                         </div>
-                                        <div>   
-                                            <input type="button" name="" id="" class="like">
-                                       </div> 
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#3 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$399<sup class="reform"><small>50</small></sup></h2>
+                                </div>
+                                <div>
+                                    <div class="button1">
+                                        <button>MORE DETAILS</button> 
+                                        <button class="button2">ADD TO CART
+                                            <i class="icon">
+                                                <img src="images/basket1.png" alt="">
+                                            </i> 
+                                        </button>
                                     </div>
-                                </div>   
-                            </div> 
-                            <div class="inform">
-                                <h1>#1 Device Name</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p><strong class="strong">TYPE</strong>: Laptop</p>
-                                <p><strong class="strong"> SIZE</strong>: 7 inches</p>
-                                <p><strong class="strong"> RAM</strong>: 1GB</p>
-                                <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                                </div>
                             </div>
-                            <div>
-                                <form action="" >
+                        </div>
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/tele.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>   
+                                                <input type="button" name="" id="" class="like">
+                                            </div> 
+                                        </div>
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#1 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                                </div>
+                                <div>
                                     <div class="button1">
                                         <button>MORE DETAILS</button> 
                                         <button class="button2">ADD TO CART
@@ -286,35 +375,35 @@
                                             </i> 
                                         </button>
                                     </div>
-                                 </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="centralmenu">
-                            <div class="classs">
-                                <a href="" class="foto">
-                                    <img src="images/tele.png" alt="">
-                                </a>
-                                <div class="but">
-                                    <div class="but1">
-                                        <div>
-                                            <input type="button" name="" id="" class="bord">
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/tele.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>   
+                                                <input type="button" name="" id="" class="like">
+                                            </div> 
                                         </div>
-                                        <div>   
-                                            <input type="button" name="" id="" class="like">
-                                       </div> 
-                                    </div>
-                                </div>   
-                            </div> 
-                            <div class="inform">
-                                <h1>#1 Device Name</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p><strong class="strong">TYPE</strong>: Laptop</p>
-                                <p><strong class="strong"> SIZE</strong>: 7 inches</p>
-                                <p><strong class="strong"> RAM</strong>: 1GB</p>
-                                <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
-                            </div>
-                            <div>
-                                <form action="" >
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#1 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                                </div>
+                                <div>
                                     <div class="button1">
                                         <button>MORE DETAILS</button> 
                                         <button class="button2">ADD TO CART
@@ -323,35 +412,35 @@
                                             </i> 
                                         </button>
                                     </div>
-                                 </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="centralmenu">
-                            <div class="classs">
-                                <a href="" class="foto">
-                                    <img src="images/tele.png" alt="">
-                                </a>
-                                <div class="but">
-                                    <div class="but1">
-                                        <div>
-                                            <input type="button" name="" id="" class="bord">
+                        <div class="col-md-4">
+                            <div class="centralmenu">
+                                <div class="classs">
+                                    <a href="" class="foto">
+                                        <img src="images/tele.png" alt="">
+                                    </a>
+                                    <div class="but">
+                                        <div class="but1">
+                                            <div>
+                                                <input type="button" name="" id="" class="bord">
+                                            </div>
+                                            <div>   
+                                                <input type="button" name="" id="" class="like">
+                                            </div> 
                                         </div>
-                                        <div>   
-                                            <input type="button" name="" id="" class="like">
-                                       </div> 
-                                    </div>
-                                </div>   
-                            </div> 
-                            <div class="inform">
-                                <h1>#1 Device Name</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <p><strong class="strong">TYPE</strong>: Laptop</p>
-                                <p><strong class="strong"> SIZE</strong>: 7 inches</p>
-                                <p><strong class="strong"> RAM</strong>: 1GB</p>
-                                <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
-                            </div>
-                            <div>
-                                <form action="" >
+                                    </div>   
+                                </div> 
+                                <div class="inform">
+                                    <h1>#1 Device Name</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p><strong class="strong">TYPE</strong>: Laptop</p>
+                                    <p><strong class="strong"> SIZE</strong>: 7 inches</p>
+                                    <p><strong class="strong"> RAM</strong>: 1GB</p>
+                                    <h2 class="reform1">$599<sup class="reform"><small>25</small></sup></h2>
+                                </div>
+                                <div>
                                     <div class="button1">
                                         <button>MORE DETAILS</button> 
                                         <button class="button2">ADD TO CART
@@ -360,20 +449,24 @@
                                             </i> 
                                         </button>
                                     </div>
-                                 </form>
+                                </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
-    </main>
+    </div>
+</main>
     <footer class="footer">
         <div>
             Footer
         </div>
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
     <script src="app.js"></script>
 </body>
 </html>

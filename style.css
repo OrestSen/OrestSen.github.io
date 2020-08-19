@@ -39,20 +39,20 @@ button:focus {
 .col-md-3 {
     width: 25%;
 }
-
+.col-md-4 {
+    width: 33.33%;
+}
 .col-md-6 {
     width: 50%;
-
 }
-
+.col-md-8 {
+    width: 66.66%;
+}
 .col-md-9 {
     width: 75%;
 }
-
-.toptex {
-    position: absolute;
-    left: 30%;
-    margin: 5px;
+.col-md-12 {
+    width: 100%;
 }
 
 .header {
@@ -222,7 +222,7 @@ div li:hover > .drop-down {
 .menu li:hover a {
     background-color: #2c71b8;
     color: #ebeff6;
-}
+} 
 
 .drop-down > li > a:hover { 
     background-color: #ebeff6;
@@ -252,14 +252,7 @@ div li:hover > .drop-down {
 
 .main {
     width: 100%;
-    height: 1600px;
     float: left;
-}
-
-.col-md-9 {
-    position: absolute;
-    top: 230px;
-    left: 30%;
 }
 
 .filter {
@@ -267,6 +260,7 @@ div li:hover > .drop-down {
     height: 845px;
     border: 1px solid white;
     color: white;
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .filter h1 {
@@ -313,8 +307,8 @@ label:before {
     height: 650px;
     border: 1px solid white;
     background-color: rgba(44, 113, 184, 0.1);
-    margin: 15px;
     float: left;
+    margin-top: 30px;
 }
  
 .classs {
@@ -340,7 +334,7 @@ label:before {
     position: absolute;
 }
 
-.like:hover {
+.like:hover,.liked {
     background: url(images/like1.png) no-repeat 50% 50%;
     box-shadow: inset 0 0 2px rgba(44, 113, 184, 1);
     background-color: rgba(44, 113, 184, 1);
@@ -374,6 +368,18 @@ label:before {
     color: white;
     margin: 10px 10px 0;
     line-height: 1.6em;
+}
+.change  {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.change a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.change p {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .inform1 {
@@ -469,4 +475,34 @@ button:hover {
     width: 100%;
     float: left;
     content: "";
+}
+.slider-block > div {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    padding: 150px 0;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+}
+
+.slick-prev:before {
+    content: "◄";
+}
+.slick-next:before {
+    content: "►";
+}
+
+.slick-dots li button::before {
+    color: red;
+    font-size: 10px;
+}
+.slick-slide img {
+    display: initial;
+    background-color: aquamarine;
 }
