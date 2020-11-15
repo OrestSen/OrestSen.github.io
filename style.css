@@ -110,12 +110,15 @@ button:focus {
 }
 
 input[type="search"] {
+    width: 165px;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.1);
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    outline: none;
+    -webkit-appearance: none;
     border: none;
-    vertical-align: 80%;
+    vertical-align: 36%;
     color: #2c71b8;
+    top: 10px;
 }
 
 input[type="submit"] {
@@ -125,6 +128,7 @@ input[type="submit"] {
     background: url(images/but.png) no-repeat 50% 50%; /* Параметры фона */
     outline: none;
     padding: 0 0 10px 30px;
+    position: absolute;
 }
 
 input[type="submit"]:hover {
