@@ -110,15 +110,21 @@ button:focus {
 }
 
 input[type="search"] {
+    position: relative;
+    width: 140px;
+    top: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    outline: none;
+    -webkit-appearance: none;
     border: none;
     vertical-align: 80%;
     color: #2c71b8;
+    
 }
 
 input[type="submit"] {
+    float: right;
+    position: relative;
     font-size: 23px;
     border: none;
     cursor: pointer;
