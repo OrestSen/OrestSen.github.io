@@ -4,7 +4,7 @@
 let productsCountEl = document.getElementById("products-count");
 let addToCartButtons = document.querySelectorAll(".button2");
 
-console.log(addToCartButtons);
+// console.log(addToCartButtons);
 // **********************************************multiple*****************************************
 for (let i = 0; i < addToCartButtons.length; i++) {
   addToCartButtons[i].addEventListener("click", function () {
@@ -82,6 +82,7 @@ let productsQuantity = document.querySelectorAll(".quantity-input");
 // let currentCount = productsQuantity.value; 
 let minCount = 1;
 let maxCount = 5;
+
 
 for (let i = 0; i < productsQuantity.length; i++) {
   let currentCount = +productsQuantity[i].value;
@@ -188,7 +189,7 @@ AOS.init();
 // let counter = new Counter("orest");
 
 
-function Counter(incrementButton, decrementButton, productQuantity, minCount = 1, maxCount = 10) {
+function Counter(incrementButton, decrementButton, productQuantity, minCount = 1, maxCount = 5) {
   this.domRefs = {
     incrementButton,
     decrementButton,
